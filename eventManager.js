@@ -1,7 +1,7 @@
 function EventManager() {
-  if (!(this instanceof Manager)) {
-    console.warn("An event EventManager should only be constructed with the \'new\' keyword.");
-    console.warn("No event EventManager was constructed.");
+  if (!(this instanceof EventManager)) {
+    console.warn("An EventManager should only be constructed with the \'new\' keyword.");
+    console.warn("No EventManager was constructed.");
     return;
   }
   this._events = {};
